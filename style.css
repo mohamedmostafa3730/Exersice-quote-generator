@@ -1,0 +1,61 @@
+h1 {
+  margin-bottom: 10px;
+}
+body {
+  background-color: black;
+  font-family: "DynaPuff", system-ui;
+  color: #999;
+  overflow: hidden;
+  font-size: 1.875rem;
+}
+p {
+  font-family: "DynaPuff", system-ui;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #999;
+}
+div {
+  padding-block: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+button {
+  font-family: "DynaPuff", system-ui;
+  margin-top: 2%;
+  font-size: 1.475rem;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 0 solid transparent;
+  background-color: #999;
+  transition: all 400ms;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  user-select: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #000;
+  color: #999;
+  border: 2px solid #999;
+}
